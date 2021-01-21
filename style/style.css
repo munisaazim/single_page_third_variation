@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Navbar*/
+
+.navbarOne{
+    background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../image/bg.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.navbarContainer{
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+.navbarContainer label{
+    line-height: 90px;
+    margin-left:30px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.navbarContainer ul{
+    float: right;
+    margin-right:30px;
+}
+.navbarContainer li{
+    display: inline-block;
+    line-height: 90px;
+    
+}
+.navbarContainer li a{
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 13px;
+    color: #eee;
+    font-weight: 500;
+}
+.navbarContainer li a:active,.navbarContainer li a.active {
+    color: #2576FD;
+}
+.title{
+    margin-top: 150px;
+    max-width: 1200px;
+}
+.title h1{
+    text-align: center;
+}
+.title p{
+    text-align: center;
+}
+.title h1.headerText{
+    font-size: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.title  h1.headerTextTwo{
+    margin: 10px 0;
+    font-size: 65px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.title p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #eee;
+    word-spacing: 2px;
+    margin: 20px 0;
+}
+.title p.headerButton{
+    margin: 40px 0;
+}
+p.headerButton a{
+    border-radius: 30px;
+    border: 1px solid #fff;
+    background: linear-gradient(to right,#1A237E 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all .5s ease-out;
+    padding: 12px 35px;
+    text-decoration: none;
+    color: #1A237E;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    
+}
+p.headerButton a:hover{
+    border: 2px solid #ffffff;
+    background-position: bottom left;
+    color: #fff;
+}
