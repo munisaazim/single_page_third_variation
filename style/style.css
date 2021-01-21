@@ -199,4 +199,30 @@ p.headerButton a:hover{
         font-size: 35px;
     }
 }
-
+/*About*/
+.about{
+    margin-top: 100px;
+}
+.aboutInfo h2.aboutTitle{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    word-spacing: 5px;
+    margin-bottom: 30px;
+    
+}
+.aboutInfo h2.aboutTitle span.creative{
+    color: #1A237E;
+    margin-right: 8px;
+}
+.aboutInfo p.aboutText{
+    font-family: 'Raleway', sans-serif;
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.8;
+}
