@@ -246,19 +246,21 @@ p.headerButton a:hover{
 .cardOne span i{
     font-size: 40px;
     color: #777;
+    border-radius: 50%;
 }
 .cardOne span i{
     padding: 20px 0px;
 }
 .cardOne span i:hover{
     cursor: pointer;
+    border-radius: 50%;
     width: 30%;
     height: 100%;
     background-color: #1A237E;
     background: -webkit-gradient(linear, left top, right bottom, from(#2576FD), to(#1A237E));
     background: linear-gradient(to bottom right, #2576FD, #1A237E);
-    border-radius: 50%;     
     color: white;
+    transition: all .4s;
 }
 .cardOne h5.cardTitle{
     margin-top: 10px;
@@ -293,6 +295,7 @@ p.headerButton a:hover{
 .cardTwo span i{
     font-size: 40px;
     color: #777;
+    border-radius: 50%;
 }
 .cardTwo  span i{
     padding: 20px 0px;
@@ -306,6 +309,7 @@ p.headerButton a:hover{
     background: linear-gradient(to bottom right, #2576FD, #1A237E);
     border-radius: 50%;     
     color: white;
+    transition: all .4s;
 }
 .cardTwo h5.cardTitle{
     margin-top: 10px;
@@ -342,6 +346,7 @@ p.headerButton a:hover{
 }
 .cardThree  span i{
     padding: 20px 0px;
+    border-radius: 50%;   
 }
 .cardThree span i:hover{
     cursor: pointer;
@@ -352,6 +357,7 @@ p.headerButton a:hover{
     background: linear-gradient(to bottom right, #2576FD, #1A237E);
     border-radius: 50%;     
     color: white;
+    transition: all .4s;
 }
 .cardThree h5.cardTitle{
     margin-top: 10px;
