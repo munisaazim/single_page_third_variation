@@ -19,6 +19,7 @@
 -moz-background-size: cover;
 -o-background-size: cover;
 background-position:center;
+background-attachment: fixed;
 }
 
 .navbarContainer{
@@ -225,4 +226,149 @@ p.headerButton a:hover{
     font-weight: 400;
     color: #999;
     line-height: 1.8;
+}
+.cards{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 90px;
+}
+.cardOne{
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px 40px;;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.04);
+    width: 30%;
+}
+.cardOne span i{
+    font-size: 40px;
+    color: #777;
+}
+.cardOne span i{
+    padding: 20px 0px;
+}
+.cardOne span i:hover{
+    cursor: pointer;
+    width: 30%;
+    height: 100%;
+    background-color: #1A237E;
+    background: -webkit-gradient(linear, left top, right bottom, from(#2576FD), to(#1A237E));
+    background: linear-gradient(to bottom right, #2576FD, #1A237E);
+    border-radius: 50%;     
+    color: white;
+}
+.cardOne h5.cardTitle{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.cardOne p.cardTextOne{
+    color: #1A237E;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic; 
+}
+.cardOne p.cardTextTwo{
+    color: #777;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.8;
+    max-width: 300px;
+}
+
+.cardTwo{
+    text-align: center;
+    margin-top: 40px;
+    padding: 75px 0 37px;
+    -webkit-box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 3;
+    width: 30%;
+}
+.cardTwo span i{
+    font-size: 40px;
+    color: #777;
+}
+.cardTwo  span i{
+    padding: 20px 0px;
+}
+.cardTwo  span i:hover{
+    cursor: pointer;
+    width: 30%;
+    height: 100%;
+    background-color: #1A237E;
+    background: -webkit-gradient(linear, left top, right bottom, from(#2576FD), to(#1A237E));
+    background: linear-gradient(to bottom right, #2576FD, #1A237E);
+    border-radius: 50%;     
+    color: white;
+}
+.cardTwo h5.cardTitle{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.cardTwo p.cardTextOne{
+    color: #1A237E;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic; 
+}
+.cardTwo p.cardTextTwo{
+    color: #777;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.8;
+    max-width: 300px;
+}
+
+.cardThree{
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px 40px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.04);
+    width: 30%;
+}
+.cardThree span i{
+    font-size: 40px;
+    color: #777;
+}
+.cardThree  span i{
+    padding: 20px 0px;
+}
+.cardThree span i:hover{
+    cursor: pointer;
+    width: 30%;
+    height: 100%;
+    background-color: #1A237E;
+    background: -webkit-gradient(linear, left top, right bottom, from(#2576FD), to(#1A237E));
+    background: linear-gradient(to bottom right, #2576FD, #1A237E);
+    border-radius: 50%;     
+    color: white;
+}
+.cardThree h5.cardTitle{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.cardThree p.cardTextOne{
+    color: #1A237E;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic; 
+}
+.cardThree p.cardTextTwo{
+    color: #777;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.8;
+    max-width: 300px;
 }
