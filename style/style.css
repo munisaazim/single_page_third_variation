@@ -8,13 +8,17 @@
 /*Navbar*/
 
 .navbarOne{
-    background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../image/bg.jpg');
+  background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../image/bg.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+   height: 100vh;
+  background-repeat:no-repeat;
+  background-size:cover;
+ -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-position:center;
 }
 
 .navbarContainer{
@@ -40,7 +44,7 @@
 }
 .navbarContainer li a{
     text-decoration: none;
-    padding: 0 10px;
+    padding: 0 15px;
     font-size: 13px;
     color: #eee;
     font-weight: 500;
@@ -100,9 +104,11 @@ p.headerButton a{
     font-weight: 500;
     font-family: 'Rubik', sans-serif;
     
+    
 }
 p.headerButton a:hover{
     border: 2px solid #ffffff;
     background-position: bottom left;
     color: #fff;
 }
+
