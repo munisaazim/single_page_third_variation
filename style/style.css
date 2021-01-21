@@ -111,6 +111,15 @@ p.headerButton a:hover{
     background-position: bottom left;
     color: #fff;
 }
+.navbarContainer input#check{
+    display: none;
+}
+.navbarContainer label.checkbtn i.fa-bars{
+    display: none;
+}
+.navbarContainer label.checkbtn i.fa-times{
+    display: none;
+}
 /*media*/
 @media(max-width:1060px){
     .title{
@@ -124,5 +133,50 @@ p.headerButton a:hover{
     }
     .title h1.headerTextTwo{
         font-size: 45px;
+    }
+    .navbarContainer label.checkbtn i.fa-bars{
+        display: block;
+        font-size:25px;
+        margin-right: 60px;
+        color:black;
+       /*  float: right; */
+        line-height: 80px;
+    }
+    .navbarContainer ul{
+        position: fixed;
+        width: 40%;
+        text-align: center;
+        transition: all 0.5s;
+        top: -150%;
+         left: 30%; 
+        text-align: center;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbarContainer ul li{
+        display: block;
+        margin: 10px 0;
+       /*  line-height:30px; */
+        /*adding*/
+        margin: 5px 0px;
+        line-height: 30px;
+    }
+    .navbarContainer #check:checked~ul{
+        /* left: 0; */
+        top: 110px;
+    }
+    .navbarContainer #check:checked~label.checkbtn i.fa-bars{
+        display: none;
+    }
+    .navbarContainer #check:checked ~label.checkbtn i.fa-times {
+        display: block;
+        font-size: 25px;
+        margin-right: 60px;
+        color: black;
+        /* float: right; */
+        line-height: 80px;
     }
 }
