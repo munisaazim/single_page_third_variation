@@ -406,9 +406,11 @@ p.headerButton a:hover{
 }
 .serviceContainer{
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1250px;
 }
-
+.content{
+    margin: 0 30px;
+}
 .nav{
     flex-wrap: nowrap;
 }
@@ -424,7 +426,7 @@ p.headerButton a:hover{
 }
 .nav-link, .nav-link.active {
     display: block;
-    padding: .5rem 4rem;
+    padding: .5rem 2rem;
 }
 a:hover{
     color: #000000;
@@ -447,14 +449,14 @@ a:hover{
 }
 .right{
     z-index: 5;
-    width: 50%;
+    width: 40%;
     position: relative;
     background: #ffffff;
     height: auto;
     margin-bottom: 60px;
 }
 .leftSide{
-    width:50%;
+    width:60%;
     position: relative;
     /*left:600px;*/
     top: -42px;
@@ -506,4 +508,35 @@ a:hover{
 }
 .tab-content{
     margin: 0 auto;
+}
+/*Responsive Tab One*/
+
+@media(max-width:1069px){
+    .menuNav{
+        width: 90%;
+    }
+    .nav-link, .nav-link.active {
+        display: block;
+        padding: .5rem 1.5rem;
+    }
+    .content{
+        margin: 0 30px;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .right{
+        width: 90%;
+    }
+    .leftSide{
+        width: 90%;
+    }
+}
+@media(max-width:381px){
+    .nav-link, .nav-link.active {
+        padding: .5rem 1rem;
+    }
+    .navOne{
+        font-size: 13px;
+    }
 }
