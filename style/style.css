@@ -402,11 +402,37 @@ p.headerButton a:hover{
 .service{
     margin-top: 100px;
     background: #F9F9F9;
+    background: #1A237E;
 }
 .serviceContainer{
-    padding: 0 90px;    
-
+    margin: 0 auto;
+    max-width: 1300px;
 }
+
+.nav{
+    flex-wrap: nowrap;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link { 
+    border-top:2px solid;
+    border-top-color: #1A237E;
+    background-color: #fff;
+    color: #1A237E;
+}
+.navOne{
+    color: #000000;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-link, .nav-link.active {
+    display: block;
+    padding: .5rem 4rem;
+}
+a:hover{
+    color: #000000;
+}
+.nav-pills .nav-link{
+    border-radius: 0;
+}
+
 .menuNav{
     background: #F2F2F2;
     width: 40%;
@@ -419,40 +445,65 @@ p.headerButton a:hover{
     position: relative;
    
 }
-.rightSide{
+.right{
     z-index: 5;
-    width: 45%;
+    width: 50%;
     position: relative;
     background: #ffffff;
+    height: auto;
+    margin-bottom: 60px;
 }
 .leftSide{
-    width: 50%;
-    position: absolute;
-    left:600px;
-    top: -40px;
+    width:50%;
+    position: relative;
+    /*left:600px;*/
+    top: -42px;
 }
 .leftSide img{
+    max-width: 100%;
+}
+.rightSide{
+    font-family: 'Rubik', sans-serif;
+    padding: 0 30px;   
+    padding-bottom: 30px;
     max-width: 90%;
 }
-.nav{
-    flex-wrap: nowrap;
+.rightSide h5{
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link { 
-    border-top:2px solid;
-        border-top-color: #1A237E;
-        background-color: #fff;
-        color: #1A237E;
+.rightSide h6{
+    color: #777;
+    font-size: 12px;
+    font-weight: 400;
 }
-.navOne{
+.rightSide p{
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.8;
+}
+.progressBarOne{
+    margin-top: 30px;
+}
+.progressBarOne h6{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
     color: #000000;
 }
-.nav-link, .nav-link.active {
-    display: block;
-    padding: .5rem 4.5rem;
+.progressBarTwo{
+  margin-top: 30px;
 }
-a:hover{
+.progressBarTwo h6{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
     color: #000000;
 }
-.nav-pills .nav-link{
-    border-radius: 0;
+.tab-content{
+    margin: 0 auto;
 }
