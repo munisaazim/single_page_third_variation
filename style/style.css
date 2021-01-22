@@ -399,6 +399,60 @@ p.headerButton a:hover{
     }
 }
 /*Services*/
+.service{
+    margin-top: 100px;
+    background: #F9F9F9;
+}
+.serviceContainer{
+    padding: 0 90px;    
+
+}
+.menuNav{
+    background: #F2F2F2;
+    width: 40%;
+}
+.tabMenu{
+    margin-top: 0px;
+}
 .menu{
     display: flex;
+    position: relative;
+   
+}
+.rightSide{
+    z-index: 5;
+    width: 45%;
+    position: relative;
+    background: #ffffff;
+}
+.leftSide{
+    width: 50%;
+    position: absolute;
+    left:600px;
+    top: -40px;
+}
+.leftSide img{
+    max-width: 90%;
+}
+.nav{
+    flex-wrap: nowrap;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link { 
+    border-top:2px solid;
+        border-top-color: #1A237E;
+        background-color: #fff;
+        color: #1A237E;
+}
+.navOne{
+    color: #000000;
+}
+.nav-link, .nav-link.active {
+    display: block;
+    padding: .5rem 4.5rem;
+}
+a:hover{
+    color: #000000;
+}
+.nav-pills .nav-link{
+    border-radius: 0;
 }
